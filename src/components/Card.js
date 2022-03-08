@@ -5,6 +5,8 @@ function Card(props) {
     <div>
         <p>Title: {props.title} </p>
         <p>Location: {props.location}  </p>
+        <img src={props.imageUrl} />
+
     </div>
   )
 }

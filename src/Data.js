@@ -20,8 +20,8 @@ export default [
     startDate: "",
     endDate: "",
     description:
-      " Ha Long Bay  is known for its emerald waters and thousands of towering limestone islands topped by rainforests. ",
-    imageUrl: "https://unsplash.com/photos/mgHW9AIBA18",
+      " Ha Long Bay  is known for its emerald waters and thousands of towering limestone islands topped by rainforests.",
+    imageUrl: "https://images.unsplash.com/photo-1641563634844-bcda72f71221?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80",
   },
 
   {
