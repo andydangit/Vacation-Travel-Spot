@@ -1,4 +1,5 @@
 import Card from './components/Card'
+import Navbar from './components/Navbar'
 import Data from './Data'
 
 import './App.css';
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Vacation Spot </h1> 
+      <Navbar />
       <section> {newData} </section>
     </div>
   );
