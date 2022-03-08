@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Card extends Component {
-  render() {
-    return (
-      
-    )
-  }
+function Card(props) {
+  return (
+    <div>
+        <p>Title: {props.title} </p>
+        <p>Location: {props.location}  </p>
+    </div>
+  )
 }
 
 export default Card
