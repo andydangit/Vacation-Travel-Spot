@@ -1,6 +1,6 @@
-"export default" [
+'export default' [
   {
-    Id: 1,
+    id: 1,
     title: "Mount Fuji",
     location: "Japan",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -12,7 +12,7 @@
   },
 
   {
-    Id: 2,
+    id: 2,
     title: "Ha Long Bay",
     location: "Vietnam",
     googleMapsUrl:
@@ -25,7 +25,7 @@
   },
 
   {
-    Id: 3,
+    id: 3,
     title: "Maldives GateWay",
     location: "Maldives",
     googleMapsUrl:
@@ -38,7 +38,7 @@
   },
 
   {
-    Id: 4,
+    id: 4,
     title: "Hawaii Island",
     location: "Hawaii",
     googleMapsUrl:
@@ -51,7 +51,7 @@
   },
 
   {
-    Id: 5,
+    id: 5,
     title: "Bora Bora",
     location: "French Island",
     googleMapsUrl:
@@ -59,7 +59,7 @@
     startDate: "",
     endDate: "",
     description:
-      "Surrounded by sand-fringed motus (islets) and a turquoise lagoon protected by a coral reef",
+      "Surrounded by sand-fringed motus islets and a turquoise lagoon protected by a coral reef",
     imageUrl: "https://unsplash.com/photos/LFRUK7mslpk",
   },
 ];
