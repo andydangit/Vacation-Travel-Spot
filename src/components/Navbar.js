@@ -3,7 +3,7 @@ import {GiGlobe} from 'react-icons/gi'
 
 function Navbar() {
   const navbarStyle = {
-    backgroundColor: "#F55A5A",
+    backgroundColor: "#7395AE",
     // height: "30px",
     margin: 0,
     textAlign: "center",
