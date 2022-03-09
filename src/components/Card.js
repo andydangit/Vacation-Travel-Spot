@@ -5,19 +5,22 @@ import {GrMapLocation} from 'react-icons/gr'
 function Card(props) {
 
   const cardStyle = {
-    padding: "25px",   
+    padding: "25px",  
+    display: "flex",
+    justifyContent:"center",
+    
   }
 
   const cardImgStyle = {
     width: "400px",
     height: "300px",
-    paddingLeft: "40px"
+    paddingLeft: "20px"
   }
 
   const column = {
     display: "flex",
     flexDirection: "column",
-    flexBasis: "40%",
+    flexBasis: "50%",
     flex: 1,
     
   }
@@ -27,6 +30,7 @@ function Card(props) {
     flexDirection: "row",
     flexWrap: "wrap",
     width: "50%",
+    paddingTop:"15px"
     
   }
 
