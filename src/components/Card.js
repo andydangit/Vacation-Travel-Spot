@@ -1,5 +1,7 @@
 import React from 'react'
 
+import {GrMapLocation} from 'react-icons/gr'
+
 function Card(props) {
 
   const cardStyle = {
@@ -36,9 +38,11 @@ function Card(props) {
         </div> 
 
         <div style ={column}> 
-      <p>Location: {props.location}  </p>
-      <a href={props.googleMapsUrl}> View on Google map </a>
-        <p>Title: {props.title} </p>
+      <div> <GrMapLocation /> <strong>  {props.location} </strong> 
+      <a href={props.googleMapsUrl}> View on Google map </a> 
+      </div>
+      
+        <h2>{props.title} </h2>
         <span> {props.startDate} - {props.endDate} </span> 
         <p> {props.description}</p>
     </div> 
