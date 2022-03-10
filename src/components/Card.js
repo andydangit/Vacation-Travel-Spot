@@ -22,6 +22,7 @@ function Card(props) {
     flexDirection: "column",
     flexBasis: "50%",
     flex: 1,
+    paddingLeft:"20px"
     
   }
 
@@ -34,15 +35,16 @@ function Card(props) {
     
   }
 
+
   return (
     <div  style={cardStyle}>   
     <div style={cardRow}>     
       <div style={column}> 
-        <img src={props.imageUrl} className="imgLogo" style={cardImgStyle} alt = ""/>
+        <img src={props.imageUrl} style={cardImgStyle} alt = ""/>
         </div> 
 
         <div style ={column}> 
-      <div> <GrMapLocation /> <strong>  {props.location} </strong> 
+      <div > <GrMapLocation /> <strong> {props.location} </strong> 
       <a href={props.googleMapsUrl}> View on Google map </a> 
       </div>
       
