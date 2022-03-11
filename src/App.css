@@ -16,10 +16,10 @@ strong{
 
 .light{
   background: lightyellow;
-  color: Red;
+  color: rgb(62, 19, 97);
 }
 
 .dark{
-  background: grey;
-  color: blue;
+  background: rgb(63, 62, 62);
+  color: rgb(184, 228, 167);
 }
