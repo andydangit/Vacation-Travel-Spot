@@ -13,3 +13,13 @@ a {
 strong{
   font-size: 20px
 }
+
+.light{
+  background: lightyellow;
+  color: Red;
+}
+
+.dark{
+  background: grey;
+  color: blue;
+}
