@@ -1,7 +1,7 @@
 import React from "react";
-import {GiGlobe} from 'react-icons/gi'
+import { GiGlobe } from "react-icons/gi";
 
-function Navbar() {
+function Navbar(props) {
   const navbarStyle = {
     backgroundColor: "#7395AE",
     // height: "30px",
@@ -11,18 +11,17 @@ function Navbar() {
     color: "#fff",
   };
 
-  const mainLogo = { 
+  const mainLogo = {
     height: "50px",
     width: "45px",
-    paddingRight: "8px"
-  }
+    paddingRight: "8px",
+  };
 
   return (
     <div>
       <h1 className="container" style={navbarStyle}>
-  <GiGlobe style={mainLogo} />  Vacation Spots
+        <GiGlobe style={mainLogo} /> Vacation Spots
       </h1>
-      
     </div>
   );
 }
