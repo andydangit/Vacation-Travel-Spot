@@ -7,4 +7,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 React.js 
 
 ### Feature: 
-JSON, Inline Style, useState Hook, Ternary operator, CSS
+JSON, Inline Style, useState Hook, Ternary operator, React Icon, CSS
